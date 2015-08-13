@@ -1,9 +1,8 @@
-Tyr Bundle
-==========
+# NavitiaIoApiBundle
 
-Symfony2 bundle which provide a [TyrService](https://github.com/CanalTP/TyrComponent/blob/master/src/TyrService.php).
+Symfony2 bundle which provide a [NavitiaIoApiService](https://github.com/CanalTP/NavitiaIoApiComponent/blob/master/src/NavitiaIoApiService.php).
 
-The bundle uses the [TyrComponent](https://github.com/CanalTP/TyrComponent).
+The bundle uses the [NavitiaIoApiComponent](https://github.com/CanalTP/NavitiaIoApiComponent).
 
 
 ## Installation
@@ -33,7 +32,7 @@ Updating **AppKernel.php**:
 Updating **app/config.yml**:
 
 ``` yml
-# Tyr api configuration
+# NavitiaIoApi api configuration
 canal_tp_navitia_io_api:
     url: %url%
     authentification:
