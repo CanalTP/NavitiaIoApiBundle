@@ -44,9 +44,9 @@ Add parameters in **parameters.yml**:
 
 ``` yml
 parameters:
-    url: http://navitia.local/
-    user: 'user_test'
-    password: 'password_test'
+    navitia_io_api.url: http://navitia.local/
+    navitia_io_api.auth.user: user_test
+    navitia_io_api.auth.password: password_test
 ```
 
 
