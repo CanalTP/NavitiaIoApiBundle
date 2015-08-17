@@ -1,0 +1,21 @@
+{
+    "name": "canaltp/navitiaio-api-bundle",
+    "license": "GPL-3.0",
+    "type": "symfony-bundle",
+    "description": "Symfony2 bundle which provide a NavitiaIoApi service.",
+    "homepage": "https://github.com/CanalTP/NavitiaIoApiBundle",
+    "keywords": ["php", "navitiaio", "api", "symfony"],
+    "require": {
+        "php": ">=5.2",
+        "canaltp/navitiaio-api-component": "~1.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packagist.canaltp.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "CanalTP\\NavitiaIoApiBundle\\": "" }
+    }
+}
