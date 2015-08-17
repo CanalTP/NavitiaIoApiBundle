@@ -35,7 +35,7 @@ Updating **app/config.yml**:
 # NavitiaIoApi api configuration
 canal_tp_navitia_io_api:
     url: %navitia_io_api.url%
-    authentification:
+    authentication:
         user: %navitia_io_api.auth.user%
         password: %navitia_io_api.auth.password%
 ```
