@@ -34,10 +34,10 @@ Updating **app/config.yml**:
 ``` yml
 # NavitiaIoApi api configuration
 canal_tp_navitia_io_api:
-    url: %url%
+    url: %navitia_io_api.url%
     authentification:
-        user: %user%
-        password: %password%
+        user: %navitia_io_api.auth.user%
+        password: %navitia_io_api.auth.password%
 ```
 
 Add parameters in **parameters.yml**:

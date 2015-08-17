@@ -9,8 +9,6 @@ use Symfony\Component\DependencyInjection\Loader;
 
 /**
  * This is the class that loads and manages your bundle configuration.
- *
- * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
  */
 class CanalTPNavitiaIoApiExtension extends Extension
 {
@@ -26,7 +24,7 @@ class CanalTPNavitiaIoApiExtension extends Extension
         $loader->load('services.yml');
 
         $container->setParameter('canal_tp_navitia_io_api.url', $config['url']);
-        $container->setParameter('canal_tp_navitia_io_api.auth.user', $config['authentification']['user']);
-        $container->setParameter('canal_tp_navitia_io_api.auth.password', $config['authentification']['password']);
+        $container->setParameter('canal_tp_navitia_io_api.auth.user', $config['authentication']['user']);
+        $container->setParameter('canal_tp_navitia_io_api.auth.password', $config['authentication']['password']);
     }
 }

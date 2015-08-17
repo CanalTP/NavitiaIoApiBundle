@@ -25,7 +25,7 @@ class Configuration implements ConfigurationInterface
             ->scalarNode('url')
                 ->isRequired()
             ->end()
-            ->arrayNode('authentification')
+            ->arrayNode('authentication')
                 ->isRequired()
                 ->children()
                     ->scalarNode('user')
