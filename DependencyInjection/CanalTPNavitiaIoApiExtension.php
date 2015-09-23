@@ -22,9 +22,7 @@ class CanalTPNavitiaIoApiExtension extends Extension
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
-
-        $container->setParameter('canal_tp_navitia_io_api.url', $config['url']);
-        $container->setParameter('canal_tp_navitia_io_api.auth.user', $config['authentication']['user']);
-        $container->setParameter('canal_tp_navitia_io_api.auth.password', $config['authentication']['password']);
+        
+        $container->setParameter('canal_tp_navitia_io_api.customers', $config['customers']);
     }
 }
