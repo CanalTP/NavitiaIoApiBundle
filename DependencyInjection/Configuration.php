@@ -16,27 +16,11 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('canal_tp_navitia_io_api');
+        $rootNode = $treeBuilder->root('canal_tp_navitiaio_api_bundle');
 
-        $rootNode
-        ->children()
-            ->arrayNode('customers')
-                ->prototype('array')
-                ->cannotBeEmpty()
-                    ->children()
-                        ->scalarNode('host')
-                           ->isRequired()
-                        ->end()
-                        ->scalarNode('username')
-                            ->isRequired()
-                        ->end()
-                        ->scalarNode('password')
-                            ->isRequired()
-                        ->end()
-                    ->end()
-                ->end()
-            ->end()
-        ->end();
+        // Here you should define the parameters that are allowed to
+        // configure your bundle. See the documentation linked above for
+        // more information on that topic.
 
         return $treeBuilder;
     }
