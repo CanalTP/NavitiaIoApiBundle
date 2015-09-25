@@ -29,24 +29,19 @@ Updating **AppKernel.php**:
     }
 ```
 
-Updating **app/config.yml**:
-
-``` yml
-# NavitiaIoApi api configuration
-canal_tp_navitia_io_api:
-    url: %navitia_io_api.url%
-    authentication:
-        user: %navitia_io_api.auth.user%
-        password: %navitia_io_api.auth.password%
-```
-
 Add parameters in **parameters.yml**:
 
 ``` yml
 parameters:
-    navitia_io_api.url: http://navitia.local/
-    navitia_io_api.auth.user: user_test
-    navitia_io_api.auth.password: password_test
+    canal_tp_navitia_io_api.customers:
+        navio:
+            host: http://navitia.local
+            username: admin
+            password: admin
+        sncf:
+            host: 'http://another.examle'
+            username: USERNAME_ADMIN
+            password: USERNAME_ADMIN
 ```
 
 
