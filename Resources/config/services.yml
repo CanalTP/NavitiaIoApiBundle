@@ -1,3 +1,5 @@
 services:
     canal_tp_navitia_io.api:
         class: CanalTP\NavitiaIoApiComponent\NavitiaIoApiService
+        arguments:
+            - %canal_tp_navitia_io_api.customers%
