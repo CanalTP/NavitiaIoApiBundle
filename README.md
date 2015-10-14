@@ -35,11 +35,13 @@ Add parameters in **parameters.yml**:
 parameters:
     canal_tp_navitia_io_api.customers:
         navio:
-            host: http://navitia.local
+            host: navitia
+            url: http://navitia.local
             username: admin
             password: admin
         sncf:
-            host: 'http://another.examle'
+            host: api.sncf.com
+            url: http://another.examle
             username: USERNAME_ADMIN
             password: USERNAME_ADMIN
 ```
