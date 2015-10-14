@@ -4,15 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ceb8e4b8830a5a65ca8628329353240d",
+    "hash": "ee4b9447e3ebcb04753b7bdb4fb2ae1d",
     "packages": [
         {
             "name": "canaltp/navitiaio-api-component",
-            "version": "1.4.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/CanalTP/NavitiaIoApiComponent",
-                "reference": "4f5bce4a99a2b3c1b636930e1e8ffe3ebcbbb7b6"
+                "url": "git@github.com:CanalTP/NavitiaIoApiComponent.git",
+                "reference": "b4f67fd252061e8d3829292739a4babf2c505490"
             },
             "require": {
                 "guzzlehttp/guzzle": "~3.8",
@@ -27,6 +27,7 @@
                     "CanalTP\\NavitiaIoApiComponent\\": "src/"
                 }
             },
+            "notification-url": "http://packagist.canaltp.fr/downloads/",
             "license": [
                 "GPL-3.0"
             ],
@@ -37,7 +38,7 @@
                 "navitiaio",
                 "php"
             ],
-            "time": "2015-09-25 14:57:03"
+            "time": "2015-10-14 11:44:38"
         },
         {
             "name": "guzzlehttp/guzzle",
