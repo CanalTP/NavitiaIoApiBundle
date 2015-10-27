@@ -7,7 +7,7 @@
     "keywords": ["php", "navitiaio", "api", "symfony"],
     "require": {
         "php": ">=5.2",
-        "canaltp/navitiaio-api-component": "~1.5"
+        "canaltp/navitiaio-api-component": "~1.6"
     },
     "repositories": [
         {
